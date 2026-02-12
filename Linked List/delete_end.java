@@ -13,8 +13,8 @@ class Operations{
 
     public void delete_end(Node head)
     {
-        Node cur=head;
-        while( cur.next.next!=null)
+        Node cur=head ;
+        while( cur.next.next!=null)// the memory of the last is  not set to free here and this will crash when list is empty and has onbe node 
         {
             cur=cur.next;
 
