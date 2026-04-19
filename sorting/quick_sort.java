@@ -1,5 +1,5 @@
 import java.util.*;
-public class bubblesort{
+public class quick_sort{
     
     
 }
