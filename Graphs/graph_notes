@@ -11,6 +11,9 @@ The space needed to represent a graph using its adjacency matrix is n² location
  Weighted graphs 
  As of now, we were considering graphs with unit weight edges (i.e., if there is an edge between two nodes then the weight on the edge is unit weight ) 
  but graph edges can have weights associated with them 
+ representation can be dome using a pair list 
+ ArrayList<Pair<Integer, Integer>>[] adj = new ArrayList[n+1];
+
 
 
 
