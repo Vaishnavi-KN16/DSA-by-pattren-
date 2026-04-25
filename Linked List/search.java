@@ -8,7 +8,7 @@ class Node {
     Node( int data1)
     {
         data=data1;
-        next=null;
+        next=null;w
 
     }
 }

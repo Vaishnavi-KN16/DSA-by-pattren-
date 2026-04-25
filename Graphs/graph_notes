@@ -8,6 +8,10 @@ representation of a graph as
 The space needed to represent a graph using its adjacency matrix is n² locations. Space complexity = (n*n), It is a costly method as n² locations are consumed.
 
 -> 2.to store its immediate neighbors in any order, we use the adjacency list 
+ Weighted graphs 
+ As of now, we were considering graphs with unit weight edges (i.e., if there is an edge between two nodes then the weight on the edge is unit weight ) 
+ but graph edges can have weights associated with them 
+
 
 
 
