@@ -32,3 +32,19 @@ for(int num : arr){
     }
     set.add(num);
 }
+Use HashSet when:
+
+✅ You need unique elements
+
+✅ You need fast searching
+
+✅ You need to detect duplicates
+
+✅ You need fast insertions and deletions
+Don't use it when:
+
+❌ You need elements in a specific order
+
+❌ You need indexing like get(0)
+
+❌ You need duplicate values
