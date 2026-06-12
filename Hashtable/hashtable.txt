@@ -48,3 +48,16 @@ Don't use it when:
 ❌ You need indexing like get(0)
 
 ❌ You need duplicate values
+
+
+import java.util.HashSet;
+
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        HashSet<Integer> set = new HashSet<>(nums);
+        return set;
+        
+    }
+}
+HashSet expects a Collection, but nums is an int[] array.
+hash set will not accept the arrays only array list 
