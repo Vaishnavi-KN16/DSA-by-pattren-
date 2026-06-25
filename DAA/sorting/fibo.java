@@ -1,4 +1,7 @@
 import java.util.*;
+// Dp and iterative solution is best for this comapred to recursion 
+// recursion - O(2^n) time complexity space complexity - O(n) due to stack space
+// dp and iteration - O(n) time complexity and O(n) space complexity for dp and O(1) space complexity for iteration
 
 public class fibo {
     public static int fibo( int n )
@@ -17,7 +20,7 @@ public class fibo {
         {
             System.out.println(" no sequence");
         }
-        for( int i=0;i<n;i++)
+        for( int i=0;i<=n;i++)
         {
             System.out.print(fibo(i)+" ");
         }

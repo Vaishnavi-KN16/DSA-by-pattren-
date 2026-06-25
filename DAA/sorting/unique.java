@@ -3,7 +3,7 @@ import java.util.*;
 public class unique {
     public static void main( String[] args)
     {
-        Scanner sc = new Scanner(System.in);
+         Scanner sc = new Scanner(System.in);
         int n =sc.nextInt();
         int arr[] = new int [n];
         for( int i=0;i<n;i++)
@@ -12,7 +12,7 @@ public class unique {
             
 
         }
-        for( int i=0;i<n;i++)
+        /*for( int i=0;i<n;i++)
         {
             int count=0;
             for(int j=0;j<n;j++)
@@ -28,7 +28,15 @@ public class unique {
             {
                 System.out.println(arr[i]);
             }
-        }
+        }*/
+       HashSet<Integer> set = new HashSet<>();
+       for( int num : arr)
+
+       {
+            set.add(num);
+
+       }
+    System.out.println(set);       
 
     }
     

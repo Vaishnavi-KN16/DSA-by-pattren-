@@ -61,3 +61,16 @@ class Solution {
 }
 HashSet expects a Collection, but nums is an int[] array.
 hash set will not accept the arrays only array list 
+this is how u can put array into hashset 
+HashSet<Integer> set = new HashSet<>();
+
+for(int num : nums) {
+    set.add(num);
+}
+
+System.out.println(set);
+or even like this arrays as list will go in 
+
+List<Integer> list = Arrays.asList(1, 2, 3);
+
+HashSet<Integer> set = new HashSet<>(list);
